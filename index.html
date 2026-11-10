@@ -257,20 +257,7 @@
             });
         });
 
-        // 2. Script para Lógica del Formulario (Mostrar Botón Descarga)
-        document.getElementById('lead-form').addEventListener('submit', function(e) {
-            e.preventDefault(); // Evita recargar la página
-            
-            // Oculta el formulario
-            this.style.display = 'none';
-            
-            // Muestra el mensaje de éxito y el botón de descarga
-            document.getElementById('success-message').classList.remove('hidden');
-            
-            // Aquí enviarías los datos por AJAX/Fetch a tu base de datos o email en el futuro.
-            // const formData = new FormData(this);
-            // console.log("Datos listos para guardar o contactar:", Object.fromEntries(formData));
-        });
+        
 
         // 3. Script para el Contómetro (Countdown)
         // Fecha objetivo: 03 Diciembre 2026, 00:00:00
